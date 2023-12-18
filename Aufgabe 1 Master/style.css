@@ -1,0 +1,151 @@
+
+body {
+    font-family: "neue-haas-grotesk-text", sans-serif;
+    margin: 20px;
+    background-color: #3516F010;
+}
+.glossary {
+    border: none;
+    padding: 10px;
+    padding-top: 0px;
+    width: fill;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: none;
+    padding-bottom: 20px;
+}
+
+.logo {
+    margin-right: 10px; /* Spacing between the logo and title */
+}
+
+
+/*--------------------------------- Text Styles ---------------------------------*/
+h2 {
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+a {
+    color: #3516F0;
+    font-weight: 400;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+a:hover {
+    font-style: italic;
+}
+
+p2 {
+    size: 8px;
+    color: #8B939C;
+}
+
+/*--------------------------------- Tabelle ---------------------------------*/
+table {
+    width: 100%;
+}
+table, th, td {
+    border-collapse: collapse;
+    border: none;
+}
+th, td {
+    padding: 20px;
+    text-align: left;
+}
+th {
+    border-bottom: 2px solid #3516F0;
+    border-radius: 40px;
+    font-weight: 700;
+}
+td {
+    font-weight: 400;
+}
+
+
+
+/*--------------------------------- Cover Image ---------------------------------*/
+
+.image-container {
+    width: 100%; 
+    height: 300px; 
+    overflow: hidden; 
+    padding-bottom: 40px;
+}
+
+.cropped-image {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    border-radius: 20px;
+}
+.subpage-body {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+/*--------------------------------- Zurück Button ---------------------------------*/
+.back-button {
+    text-align: left;
+    margin-top: 120px;
+    border: 2px solid #3516F0;
+    padding: 12px;
+    border-radius: 40px;
+}
+
+.back-button:hover {
+    background-color: #3516F020;
+}
+
+
+/*--------------------------------- Bottom Navigation ---------------------------------*/
+.footer {
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    background-color: #3516F0;
+}
+
+.navigation {
+    text-align: left;
+    margin: 0px;
+    padding: 12px;
+    float: right;
+    text-decoration: none;
+}
+.footer a {
+    color: #ffffff;
+}
+
+/*--------------------------------- Suchfeld ---------------------------------*/
+
+#searchInput {
+    width: 200px;
+    padding: 10px;
+    border: 2px solid #8B939C;
+    border-radius: 40px;
+    font-size: 12px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+#searchInput:focus {
+    border-color: #3516F0; 
+    background-color: #fff; 
+}
